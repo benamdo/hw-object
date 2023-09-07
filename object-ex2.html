@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Details</title>
+    <link rel="stylesheet" href="object-ex2.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Phone Details</h1>
+        <form id="phone-form">
+            <label for="brand">Brand:</label>
+            <input type="text" id="brand" required>
+
+            <label for="model">Model:</label>
+            <input type="text" id="model" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" required>
+
+            <label for="storage">Storage (GB):</label>
+            <input type="number" id="storage" required>
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" required>
+
+            <button type="button" onclick="createPhone()">Create Phone</button>
+        </form>
+
+        <div id="phone-details">
+            <!-- Phone details will be displayed here -->
+        </div>
+    </div>
+
+    <script src="object-ex2.js"></script>
+</body>
+</html>
